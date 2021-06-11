@@ -1,0 +1,96 @@
+/*Menu*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: white;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(32, 25, 25);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+#menu-h ul li:last-child a {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+/*Imagens slide*/
+#slider {
+    width: 100%;
+    max-width: 100%;
+    height: 44vw;
+    max-height: 100%;
+    position: relative;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+
+/*------FOOTER------*/
+footer {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+.vazio {
+    padding: 5px;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 0%;
+    color:#fff;
+    text-align: center;
+    top: 200px;
+    right: 0px;
+    left: 0;
+    width: 550px;
+    line-height: 3.7;
+    height: 150px;
+    font-size: large;
+}

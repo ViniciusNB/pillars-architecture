@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.texto {
+    font-family: 'Open Sans', sans-serif;
+    position:absolute;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.72);
+    border-radius: 3%;
+    color:#fff;
+    text-align: center;
+    top: 10px;
+    right: 0px;
+    left: 0;
+    width: 1000px;
+    line-height: 35px;
+    height: 500px;
+}
+

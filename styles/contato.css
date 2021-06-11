@@ -1,0 +1,19 @@
+.texto {
+    font-family: 'Open Sans', sans-serif;
+    position:absolute;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.72);
+    border-radius: 3%;
+    color:#fff;
+    text-align: center;
+    top: 15px;
+    right: 0px;
+    left: 0;
+    width: 800px;
+    line-height: 35px;
+    height: 550px;
+}
+
+.mapa {
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+/*Menu*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#menu-h{
+    background-color: black;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+#menu-h ul li:last-child a {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+.box{
+    color: white;
+    background-color: rgba(145, 145, 145, 0.344);
+}
